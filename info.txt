@@ -1,3 +1,0 @@
-This is just an informational file for documentation purpose.
-Adding new info
-Acknowledged the new information.

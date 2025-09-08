@@ -1,7 +1,3 @@
-Glad to hear everything is working fine now! Sure, I can help you create a `.README` file to document the project. Below is a simple but comprehensive README template for your project.
-
-### `.README` Template:
-
 ````markdown
 # Flask Dockerized App
 

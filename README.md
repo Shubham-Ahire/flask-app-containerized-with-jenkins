@@ -1,5 +1,3 @@
-Absolutely! Below is your **fully updated and well-structured `README.md` file**, combining your original content and the newly added **Jenkins CI/CD pipeline** section.
-
 ---
 
 ````markdown

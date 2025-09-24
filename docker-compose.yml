@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   web:
-    build: .
+    image: ahireshubham/flask-app-web:latest
     ports:
-      - "5000:5000"  # Map port 5000 of the container to port 5000 on your local machine
+      - "5000:5000"

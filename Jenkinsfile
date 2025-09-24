@@ -4,11 +4,13 @@ pipeline {
     stages {
         stage('Code clone') {
             steps {
+                echo "Code Clone Stage"
                 git url: "https://github.com/Shubham-Ahire/flask-dockerized-app.git", branch: "main"
             }
         }
         stage('Code build') {
             steps {
+                echo "Code Build Stage"
                 sh 'docker compose build'
             }
         }

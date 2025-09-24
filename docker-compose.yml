@@ -2,6 +2,10 @@ version: '3.8'
 
 services:
   web:
-    image: ahireshubham/flask-app-web:latest
+    build:
+      context: .
+    container_name: flask_web_app
     ports:
       - "5000:5000"
+    restart: always
+
